@@ -1,7 +1,7 @@
 import { AntDesign, Octicons, Fontisto, Ionicons, Feather } from '@expo/vector-icons';
 import { StyleSheet, Text, Image, View, Button, TextInput, TouchableOpacity } from 'react-native';
 import { useState  } from 'react';
-import Contact from './Contact';
+import Contact from './Post';
 
 export default function App() {
   const [post, setPost] = useState('');
